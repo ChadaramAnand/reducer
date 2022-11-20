@@ -13,7 +13,6 @@ const Count = () => {
         <div>{value.num}</div>
         <button onClick={()=>{dispatch({type:'Decrement'})}}>-</button>
         <button onClick={()=>{dispatch({type:'Reset'})}}>Reset</button>
-        <p>hello</p>
         
 
     </div>
