@@ -8,7 +8,7 @@ const Count = () => {
     const [value , dispatch] = useReducer(Reducer,initialState)
   return (
     <div>
-        <h1>counter</h1>
+        <h1>counter using reducer </h1>
         <button onClick={()=>{dispatch({type:'Increment',payload:value.num+1})}}>+</button>
         <div>{value.num}</div>
         <button onClick={()=>{dispatch({type:'Decrement'})}}>-</button>
